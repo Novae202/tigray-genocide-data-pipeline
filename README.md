@@ -1,22 +1,11 @@
-# tigray-genocide-data-pipeline
-Data pipeline for managing and processing over 1TB of data on genocide victims in Tigray, including names and exact coordinates
-tigray-genocide-data-pipeline/
-│
-├── data/
-│   ├── raw/                # Raw data files or sources
-│   └── processed/          # Processed data files
-│
-├── notebooks/              # Jupyter notebooks for exploration or analysis
-│
-├── src/                    # Source code for the data pipeline
-│   ├── ingestion.py        # Scripts for data ingestion
-│   ├── processing.py       # Scripts for data processing
-│   ├── gpu_computation.py  # Scripts for GPU-accelerated tasks
-│   └── utils.py            # Utility functions
-│
-├── tests/                  # Unit tests for the pipeline
-│
-├── .gitignore              # Git ignore file
-├── README.md               # Project documentation
-├── requirements.txt        # Python dependencies
-└── docker-compose.yml      # Docker Compose configuration (if needed)
+
+# Tigray Genocide Data Pipeline
+
+This project involves building a data pipeline to manage and process over 1TB of data on genocide victims in Tigray, including their names and exact coordinates.
+
+## Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/tigray-genocide-data-pipeline.git
+   cd tigray-genocide-data-pipeline
